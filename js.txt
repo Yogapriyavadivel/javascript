@@ -1,0 +1,86 @@
+/* const namesArray=["ak","priya","john"];
+const callback=elem=>console.log(elem);
+namesArray.forEach(callback); */
+
+/* let arr=[1,2,5,6]
+let result=arr.map(x=>x**2);
+console.log(result) */
+
+/* const countries=['usa','Ethiopia','Europe','India']
+const filteredcountries=countries.filter(country=>country.startsWith('E'));
+console.log(filteredcountries); */
+
+/* function getStringLists(arr){
+    const stringArray=[];
+    for (let i=0;i<arr.length;i++){
+        if(typeof arr[i]==='string'){
+            stringArray.push(arr[i]);
+        }
+    }
+    return(stringArray);
+} */
+
+
+/* const countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland'];
+const sentence = countries.reduce((acc, curr, index) => {
+  if (index === countries.length - 1) {
+    return `${acc}, and ${curr} are north European countries.`;
+  } else {
+    return `${acc}, ${curr}`;
+  }
+});
+
+console.log(sentence);  */
+
+
+
+/* const constants = [2.71828, 3.14159, 9.81, 37, 100];
+/*  */
+/* const [e, pi, gravity, humanBodyTemp, waterBoilingTemp] = constants;
+/*  */
+/* console.log(e); // 2.71828 */
+/* console.log(pi); // 3.14159 */
+/* console.log(gravity); // 9.81 */
+/* console.log(humanBodyTemp); // 37 */
+/* console.log(waterBoilingTemp); // 100 */
+
+
+
+// Create an Empty Set
+/* var example=new Set(); */
+
+/* var example2=new Set();
+for(let i=1;i<=10;i++){
+    example2.add(i)+" ";
+    console.log (i);
+    
+} */
+
+
+
+/* const countries =new Set (['Finland', 'Sweden', 'Norway'])
+console.log(countries)
+countries.delete('Sweden');
+console.log(countries) */
+
+/* countries.clear();
+console.log(countries)
+ */
+
+/* let array=['Europe', 'france', 'indonesia','korea','morraco']
+let setexample=new Set(array);
+console.log(setexample) */
+
+
+/* let mapexample=new Map([['Korea',5],['europe',7],['Sweden',6],['indonesia',5]])
+console.log(mapexample) */
+
+
+const a = [3,5,7,8]
+const b = [5,7,3,9]
+let union=[...a,...b]
+console.log(union)
+let intersection=a.filter((x)=>b.includes(x))
+console.log(intersection)
+let difference=a.filter((x)=>!b.includes(x))
+console.log(difference)
